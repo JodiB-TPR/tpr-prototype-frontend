@@ -1,0 +1,25 @@
+{
+  "pluginDependencies": ["govuk-frontend"],
+  "assets": [
+    "/assets"
+  ],
+  "nunjucksPaths": [
+    "/nunjucks"
+  ],
+  "sass": [
+    "/all.scss"
+  ],
+  "nunjucksMacros": [
+    {
+      "importFrom": "tpr-prototype-frontend/components/tprRelatedLinks.njk",
+      "macroName": "tprRelatedLinks"
+    }
+  ],
+  "templates": [
+    {
+      "path": "/templates/related-links.njk",
+      "name": "Page with related links",
+      "type": "nunjucks"
+    }
+  ]
+}

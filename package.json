@@ -1,0 +1,10 @@
+{
+  "name": "tpr-prototype-frontend",
+  "version": "0.0.1",
+  "description": "A toolkit for prototyping in The Pensions Regulator",
+  "scripts": {
+    "test": "npx -y govuk-prototype-kit@latest validate-plugin"
+  },
+  "author": "Jodi Bennett <jodi.bennett@tpr.gov.uk>",
+  "license": "ISC"
+}

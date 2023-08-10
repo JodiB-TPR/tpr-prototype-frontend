@@ -1,0 +1,45 @@
+{% extends "tpr-prototype-frontend/layouts/main.html" %}
+
+{% set pageName="New page with related links" %}
+
+{% block beforeContent %}
+  {{ govukBackLink({
+  text: "Back",
+  href: "javascript:window.history.back()"
+}) }}
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-l">
+        {{ pageName }}
+      </h1>
+
+    </div>
+    <div class="govuk-grid-column-one-third">
+    {{ tprRelatedLinks({
+        title: {
+          text: "This is my title"
+        },
+        body: {
+          html: "Eat my <strong>shorts</strong>"
+        },
+        links: [
+          {
+            text: "Doug's Story",
+            url: "/page1"
+          },
+          {
+            text: "My Story",
+            url: "/page2"
+          }
+        ]
+    }) }}
+
+    </div>
+  </div>
+
+{% endblock %}

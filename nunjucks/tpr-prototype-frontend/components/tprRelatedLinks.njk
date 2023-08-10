@@ -1,0 +1,23 @@
+{% macro tprRelatedLinks(params) %}
+
+      <aside class="tpr-prototype-frontend__related-items" role="complementary">
+        <h2 class="govuk-heading-m" id="subsection-title">
+          {{ params.title.text }}
+        </h2>
+
+        {% if params.body.text %}
+          <p>{{ params.body.text }}</p>
+        {% elseif params.body.html %}
+          <p>{{ params.body.html | safe }}</p>
+        {% endif %}
+
+        <nav role="navigation" aria-labelledby="subsection-title">
+          <ul class="govuk-list">
+            {% for link in params.links %}
+              <li>
+                <a href="{{link.url}}">{{ link.text }}</a>
+              </li>
+            {% endfor %}
+        </nav>
+      </aside>
+{% endmacro %}
