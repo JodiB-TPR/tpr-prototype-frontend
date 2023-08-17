@@ -1,6 +1,6 @@
 {
   "meta": {
-    "description": "A tool to allow easy prototyping with The Pension Regulator's design system."
+    "description": "A tool to allow easy prototyping with The Pensions Regulator's design system."
   },
   "pluginDependencies": ["govuk-frontend"],
   "assets": [
