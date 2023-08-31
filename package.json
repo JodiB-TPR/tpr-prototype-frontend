@@ -1,6 +1,6 @@
 {
   "name": "tpr-prototype-frontend",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A toolkit for prototyping in The Pensions Regulator",
   "scripts": {
     "test": "npx -y govuk-prototype-kit@latest validate-plugin",
