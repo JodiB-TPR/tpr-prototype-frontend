@@ -4,7 +4,7 @@
   "description": "A toolkit for prototyping in The Pensions Regulator",
   "scripts": {
     "test": "npx -y govuk-prototype-kit@latest validate-plugin",
-    "preversion": "git checkout main && git pull && npm install && npm test && npm run build",
+    "preversion": "git checkout main && git pull && npm install && npm test",
     "release:major": "npm version major",
     "release:minor": "npm version minor",
     "release:patch": "npm version patch",
