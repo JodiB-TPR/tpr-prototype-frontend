@@ -16,9 +16,16 @@
 }
 
 .tpr-prototype-frontend__related-items {
-        border-top: 2px solid govuk-colour("blue");
-        padding-top: govuk-spacing(2);
+    border-top: 4px solid #006ebc;
+    padding-top: .85rem;
+        /* border-top: 2px solid govuk-colour("blue");
+        padding-top: govuk-spacing(2); */
 }
+
+/* #subsection-title {     //Not sure I need this yet
+    line-height: 1.3;
+    margin-bottom: 12px;
+  } */
 
 
 
@@ -29,14 +36,15 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     font-size: 0.875rem;
     line-height: 1.1428571429;
     border-bottom: 10px solid #ffffff;
     color: #ffffff;
     background: #483b8b; 
 }
-    .tpr-prototype-frontend__header__container {
+
+.tpr-prototype-frontend__header__container {
     position: relative;
     margin-bottom: -10px;
     padding-top: 10px;
