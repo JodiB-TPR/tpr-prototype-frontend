@@ -28,6 +28,10 @@
     text-underline-offset: 0.3em;
 }
 
+.tpr-prototype-frontend__header__link:focus {
+    color: #3d3d3d;
+}
+
 .tpr-prototype-frontend__related-items {
     border-top: 4px solid #006ebc;
     padding-top: .85rem;
@@ -42,26 +46,30 @@
 
 
 
-// -------
+// ------- 2. HEADER STYLES ------- //
 
 
 .tpr-prototype-frontend__header {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-weight: 400;
-    font-size: 16px;
-    font-size: 0.875rem;
-    line-height: 1.1428571429;
-    border-bottom: 10px solid #ffffff;
+    background: #483b8b;
+    // border-bottom: 10px solid #ffffff;
+    border-bottom: 0px;
     color: #ffffff;
-    background: #483b8b; 
+    // font-size: 16px;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.1428571429;
+    padding-bottom: 10px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    
 }
 
 .tpr-prototype-frontend__header__container {
-    position: relative;
+    // border-bottom: 10px solid #3d3d3d;
+    border-bottom: 0px; 
     margin-bottom: -10px;
     padding-top: 10px;
-    border-bottom: 10px solid #3d3d3d;
+    position: relative;
 }
     
 
