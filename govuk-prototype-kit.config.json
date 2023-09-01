@@ -16,6 +16,10 @@
     {
       "importFrom": "tpr-prototype-frontend/components/tprRelatedLinks.njk",
       "macroName": "tprRelatedLinks"
+    },
+    {
+      "importFrom":"tpr-prototype-frontend/components/tprHeaderServiceUsername.njk",
+      "macroName": "tprHeaderServiceUsername"
     }
   ],
   "templates": [
