@@ -2,12 +2,12 @@
 
   <header class="govuk-header tpr-prototype-frontend__header" role="banner">
   <div class="govuk-header__container govuk-width-container tpr-prototype-frontend__header__container">
-    <div class="govuk-header__logo" style="width: 20%;padding-right: 0px;">
-      <a href="/" class="govuk-header__link">
-        <img src="/plugin-assets/tpr-prototype-frontend/assets/images/TPR-Logo-Header.svg" class="govuk-header__logo-image" alt="The Pension Regulator Logo" style="width: 150px; height: 72px;" />
+    <div class="govuk-header__logo tpr-prototype-frontend__header__logo">
+      <a href="/" class="govuk-header__link tpr-prototype-frontend__header__link">
+        <img src="/plugin-assets/tpr-prototype-frontend/assets/images/TPR-Logo-Header.svg" class="govuk-header__logo-image tpr-prototype-frontend__header__logo-image" alt="The Pensions Regulator Logo"/>
       </a>
     </div>
-    <div class="govuk-header__content govuk-header__navigation" style="width: 40%;display: inline-block;border-left: solid 1px #7569ba;padding: 1rem 0 1rem 1rem;margin-left: 0px;margin-bottom: 0px;margin-top: 12px;">
+    <div class="govuk-header__content govuk-header__navigation tpr-prototype-frontend__header__service-name">
       {% for link in params.links %}
           <a href="{{link.url}}" class="tpr-prototype-frontend__header__link govuk-header__link">{{ link.text }}</a>
       {% endfor %}
@@ -15,10 +15,10 @@
             Managing pension schemes
         </a> #}
     </div>
-    <div class="govuk-header__content govuk-header__navigation" style="width: 40%; text-align: right;">
-      <nav style="padding-top:2.1em;">
-        <span style="font-size: 1rem;">John Smith &nbsp;|&nbsp; </span>
-        <a href="/" class="govuk-header__link" style="font-size: 1rem;">
+    <div class="govuk-header__content govuk-header__navigation tpr-prototype-frontend__header__content tpr-prototype-frontend__header__navigation">
+      <nav class="tpr-prototype-frontend__header__nav">
+        <span class="tpr-prototype-frontend__header__username">John Smith &nbsp;|&nbsp; </span>
+        <a href="/" class="govuk-header__link tpr-prototype-frontend__header__link">
           Sign out
         </a>
       </nav>

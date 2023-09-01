@@ -17,13 +17,13 @@
 
 .tpr-prototype-frontend__header__link {
     color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.5;
     font-weight: 600;
     text-decoration: none;
 }
 
 .tpr-prototype-frontend__header__link:hover {
-    color: #ffffff;
-    font-weight: 600;
     text-decoration: underline;
     text-underline-offset: 0.3em;
 }
@@ -52,7 +52,7 @@
 .tpr-prototype-frontend__header {
     background: #483b8b;
     // border-bottom: 10px solid #ffffff;
-    border-bottom: 0px;
+    border-bottom: 0;
     color: #ffffff;
     // font-size: 16px;
     font-size: 0.875rem;
@@ -66,11 +66,49 @@
 
 .tpr-prototype-frontend__header__container {
     // border-bottom: 10px solid #3d3d3d;
-    border-bottom: 0px; 
+    border-bottom: 0; 
     margin-bottom: -10px;
-    padding-top: 10px;
+    padding: 12px 0;
     position: relative;
 }
-    
+
+.tpr-prototype-frontend__header__logo {
+    padding-right: 0;
+    width: 20%;
+}
+
+.tpr-prototype-frontend__header__content, .tpr-prototype-frontend__header__navigation {
+    text-align: right;
+    width: 40%;
+}
+
+.tpr-prototype-frontend__header__service-name {
+    border-left: solid 1px #7569ba;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 12px;
+    padding: 1rem 0 1rem 1rem;
+    width: 40%;
+}
+
+.tpr-prototype-frontend__header__service-name a.tpr-prototype-frontend__header__link {
+    font-size: 1.15rem;
+  }
+  
+.tpr-prototype-frontend__header__nav {
+    padding-top: 2.1em;
+}
+
+.tpr-prototype-frontend__header__username {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.tpr-prototype-frontend__header__logo-image {
+    height: 72px;
+    width: 150px;
+}
 
   
