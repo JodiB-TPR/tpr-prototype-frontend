@@ -20,6 +20,10 @@
     {
       "importFrom":"tpr-prototype-frontend/components/tprHeaderServiceUsername.njk",
       "macroName": "tprHeaderServiceUsername"
+    },
+    {
+      "importFrom":"tpr-prototype-frontend/components/tprFooterService.njk",
+      "macroName": "tprFooterService"
     }
   ],
   "templates": [
