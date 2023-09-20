@@ -14,112 +14,25 @@
 {% endblock %}
 
 {% block footer %}
-{# {% from "govuk/components/footer/macro.njk" import govukFooter %} #}
 
 {{ tprFooterService ({
   navigation: [
     {
-      title: "Two column list",
-      width: "two-thirds",
-      columns: 2,
       items: [
         {
           href: "#",
-          text: "Navigation item 1"
+          text: "Accessibility"
         },
         {
           href: "#",
-          text: "Navigation item 2"
+          text: "Contact us"
         },
         {
           href: "#",
-          text: "Navigation item 3"
-        },
-        {
-          href: "#",
-          text: "Navigation item 4"
-        },
-        {
-          href: "#",
-          text: "Navigation item 5"
-        },
-        {
-          href: "#",
-          text: "Navigation item 6"
+          text: "Website policies"
         }
       ]
-    },
-    {
-      title: "Single column list",
-      width: "one-third",
-      items: [
-        {
-          href: "#",
-          text: "Navigation item 1"
-        },
-        {
-          href: "#",
-          text: "Navigation item 2"
-        },
-        {
-          href: "#",
-          text: "Navigation item 3"
-        }
-      ]
-    }
-  ]
+    }]
 }) }}
 
-<footer class="govuk-footer">
-  <div class="govuk-width-container">
-    <div class="govuk-footer__meta">
-      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
-        <h2 class="govuk-visually-hidden">The Pensions Regulator links</h2>
-        <ul class="govuk-footer__inline-list">
-          <li class="govuk-footer__inline-list-item">
-            <a class="govuk-footer__link" href="https://www.thepensionsregulator.gov.uk/">
-              The Pensions Regulator main website
-            </a>
-          </li>
-          <li class="govuk-footer__inline-list-item">
-            <!-- TODO-2753 work out proper privacy policy link -->
-            <a class="govuk-footer__link" href="/">
-              Privacy policy
-            </a>
-          </li>
-          <li class="govuk-footer__inline-list-item">
-            <!-- TODO-2753 work out proper privacy policy link -->
-            <a class="govuk-footer__link" href="../accessibility-statement">
-             Accessibility statement
-            </a>
-          </li>
-        </ul>
-        <div>&copy; The Pensions Regulator 2022 – 2023</div>
-      </div>
-    </div>
-    <hr class="govuk-footer__section-break">
-    <div class="govuk-footer__meta">
-      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
-        <h2>User research links</h2>
-        <ul class="govuk-footer__inline-list">
-          <li class="govuk-footer__inline-list-item">
-            <a class="govuk-footer__link" href="/prototype-admin/clear-data">
-              Clear data
-            </a>
-          </li>
-          <li class="govuk-footer__inline-list-item">
-            <a class="govuk-footer__link" href="/eligibility/index">
-              Eligibility check
-            </a>
-          </li>
-          <li class="govuk-footer__inline-list-item">
-            <a class="govuk-footer__link" href="/account/start">
-              Create account
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</footer>
 {% endblock %}
